@@ -1,0 +1,107 @@
+changelog
+VG101 2019 SUMMER
+Project 1
+
+name:XuPengcheng
+student_ID:518370910177
+
+
+Function:
+1.Input :
+        1)we can now decide the numbers of the lanes
+        2)we can decide the number of directions of roads
+        3)we can generate the plate
+        4) the time of red light
+        5)the time of green light
+
+
+
+
+
+2.Plotting the roads and lights
+
+struct road
+road=struct('width',{},'dir_n',{},'lane_n',{},'shape',{},...
+            'size',{},'set',{},'midline',{},'midlines',{},'midlines_s',{});
+%define the road as a struct
+%dir_n is the number of directions
+%lane_n is the number of lanes
+%shape is a matrix to show how the 1/n of the road is plotted
+%size is the size of shape matrix
+%set is the whole set of all parts of road
+%midline is 1 middle line of road
+%midlines is the set of  a quarter of all the lanes of middle line of road
+%midlines_s is the set of all middle lines of road
+
+
+
+3.struct light
+light=struct('position',{},'no',{},'color',{},...
+             'size',{},'set',{},'tr',{},'tg',{});
+%define the light as a struct
+%tr is time of red
+%tg is time of green
+
+
+
+3.Set up the properties of cars
+
+  struct car
+car=struct('length',{},'width',{},...
+    'no',{},...
+    'plate',zeros(car_n),...
+    'plate_lib',{},...
+    'plate_n',{},...
+    'car_type',{},...
+    'shape',zeros(2,5),...
+    'shapet',{},...
+    'color',{},...
+    'fill',{},...
+    'fillcolor',{},...
+    'velocity',{},...
+    'changingv',{},...
+    'ox',{},'oy',{},...
+    'dx',{},'dy',{},...
+    'oox',{},'ooy',{},...
+    'odirection',{},...
+    'direction2',{},...
+    'violation',{},...
+    'state',{},...
+    'area',{},...
+    'No_in_area',{},...
+    'lane',{},...
+    't0',{},...
+    'boom',{});
+
+%originally define a struct car,
+%it's length is 2 ,width is 1,it's number
+%plate is its plate number,shape is its shape:1 is rectangular,
+%color is a char like 'r'
+%fill is a 2*n matrix to describe the place to paint another color
+%fillcolor is the color filled corresponding to "fill"
+%velocity is originally set 0.1 units,
+%changingv is a boolean 0 or values>0,if 0 it's not changingits speed
+          %otherwise its value is its time start to change v
+%ox,oy,is its center point's position, set up by ox and oy matrices
+%oox,ooythe position change with respect to the light when reach crossing
+%odirection is which way a car take originally,it's randomly generated in the range 1 to car_n 
+%direction2 is which way a car NOW take(will be changed after turning)
+%violation record whether the car will break traffic rules 1is violation,0 is not
+%state is a varieble to express whether the car have crossed the road:
+       %1: not crossed 2:stop at the crossing 3:at the crossing(straight) 4:turning right 5.turning left 6:have crossed
+%area is to express where the cars are, there are road(1).dir_n  number of
+       %road directions and 1 crossing
+%No_in_area is the car No, in its area :an integer 
+%t0 is the time the car starts to turn
+%boom is to express whether the car bump into each other,0 is no ,n>=1 is
+%the number it bumps into.
+
+
+4.
+Plotting the car motion
+
+**can turn left or right
+**will stop when red lights are on
+**have special and real shapes
+**have different color
+**have different sizes
