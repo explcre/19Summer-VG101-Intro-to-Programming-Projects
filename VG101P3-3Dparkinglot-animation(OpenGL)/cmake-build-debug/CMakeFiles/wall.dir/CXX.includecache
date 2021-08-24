@@ -1,0 +1,90 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/include/GL/freeglut.h
+freeglut_std.h
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/include/GL/freeglut_std.h
+freeglut_ext.h
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/include/GL/freeglut_ext.h
+
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/include/GL/freeglut_ext.h
+stdarg.h
+-
+
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/include/GL/freeglut_std.h
+windows.h
+-
+EGL/egl.h
+-
+GLES/gl.h
+-
+GLES2/gl2.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+stdlib.h
+-
+
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/Analysis.h
+head.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/head.h
+
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/ComplexFigure.h
+head.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/head.h
+
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/Control.h
+head.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/head.h
+
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/ElementFigure.h
+GLUT/glut.h
+-
+GL/freeglut.h
+-
+GL/freeglut.h
+-
+math.h
+-
+iostream
+-
+cstdlib
+-
+ctime
+-
+
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/head.h
+ElementFigure.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/ElementFigure.h
+time.h
+-
+
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/main.cpp
+head.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/head.h
+p3.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/p3.h
+ElementFigure.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/ElementFigure.h
+Analysis.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/Analysis.h
+Control.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/Control.h
+ComplexFigure.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/ComplexFigure.h
+
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/p3.h
+head.h
+D:/JI/Vg101/projects/p3/priviledge/pgroup24_p3/formal_p3/head.h
+

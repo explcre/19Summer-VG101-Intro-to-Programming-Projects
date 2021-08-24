@@ -1,0 +1,28 @@
+
+2019/08/07
+Added:
+README file
+Fixed:
+Time counting function
+
+2019/08/03
+Added:
+class Game
+relation of parking(figure) and ticket
+
+2019/07/31
+Added:
+function arrival, departure
+class Rocket, UFO, Teleported
+
+2019/07/27
+Added: 
+class ParkData
+class shape
+class vector, motion
+interactive interface
+
+2019/07/23
+Added: 
+class ElemFigure
+class Cuboid, Ellipsoid, HalfEllipsoid, Cone, Cylinder
